@@ -64,7 +64,7 @@ void viewword(){
 
 		}
 
-		printf("\n\n Guessed left: %d\n\n", life);
+		printf("\n\n Guessed left: %d\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", life);
 		
 		letterFound = false;
 
@@ -87,6 +87,14 @@ void viewword(){
 		} else {
 			printf("\nthis is the %d letter in the word\n\n", position);
 			letterFound = true;
+		}
+
+		if(life == 0){
+			
+			if (life == 0){
+				printf("\t\t\t\t\t\t\t\n\n\n\n\n GAME OVER\n\n\n\n\n\n\n");
+			}
+
 		}
 
 
